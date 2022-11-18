@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="How Search Engines Work" content="width=device-width, initial-scale=1.0">
+    <meta content="How Search Engines Work">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Project 1</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+  <nav>
+    <div class="nav-div">
+    <li><a href="home.html">Home</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+    </div>
+  </nav>
+
+  <div class="container">
+
+    <h1>Project 1</h1>
+
+	<h2>How Search Engines Work</h2>
+    <p>A search engine allows a user to enter a query and search the internet for websites that have the information they are looking for. Search engines
+        use web crawlers to crawl pages and get data.
+    </p>
+
+    <h2>The importance of keywords and descriptions as meta tags</h2>
+    <p>Keywords and descriptions ensure that the sesarch engines have the information of what your content is about. This whey they will have the ability to display
+        the website with the necessary/important results. These are also very helpful if you have a business that you need to advertise, as it helps people to find your website/business. 
+    </p>
+
+    <h2>Four elements that comprise writing relevant content links (SEO)</h2>
+    <p>
+        <h4>The four elements, or pilllars, of wrriting relevant content links include:</h4> 
+    <ul>
+        <li>How well the content can be crawled, as well as indexed.</li>
+        <li>Having the most relevant conent to address question</li>
+        <li>Optimization of content and HTML.</li>
+        <li>Build authority to ensure search engines lean toward your content over others.</li>
+    </ul>
+    </p>
+
+    <h2>What constitutes good heading hierarchy </h2>
+    <p>A page should start with an h1 heading, then follow with an h2 headindg, and smaller headings under the larger heading. You should have sesctions and
+        subsections. They should also be about the same length as your title tags, or less than 70 characters. The headings help to add structure to the website.
+    </p>
+</div>
+  </body>
+</html>
