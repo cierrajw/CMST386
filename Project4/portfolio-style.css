@@ -1,0 +1,95 @@
+body{
+  padding: 10px;
+  background-color: #b5cbb7;
+}
+
+h1{
+  color: white;
+  font-size: 3rem;
+}
+
+h2{
+  color: #b5cbb7;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+p{
+  padding: 10px;
+  font-size: 1.5rem;
+  color: #2f3133;
+}
+
+a{
+  text-decoration: none;
+}
+
+.company-name{
+  font-size: 2rem;
+  color: white;
+}
+
+.fas.fa-arrow-left{
+  color: #607d8b;
+}
+
+.view-gallery{
+  color: white;
+  margin-top: 5px;
+  font-size: 1.5rem;
+}
+
+.view-gallery:hover{
+  cursor: pointer;
+}
+
+.project-type{
+  font-size: 1.5rem;
+  color: #b5cbb7;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.project-img{
+  width: 300px;
+  height: 500px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgba(0,0,0,0.2);
+}
+
+.project{
+  display: flex;
+  flex-direction: row;
+  margin: 25px;
+  background-color: #607d8b;
+  /* background-color: #6F8A96; */
+  border: .5px solid black;
+  border-radius: 20px;
+  grid-template-columns: 45% 55%;
+  box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgba(0,0,0,0.2);
+}
+
+.img-container{
+  text-align: center;
+  padding: 10px;
+}
+
+.project-img-desktop{
+  width: 600px;
+  height: 500px;
+  border-radius: 10px;
+  border: 1px solid black;
+  box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgba(0,0,0,0.2);
+}
+
+.project-description{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  justify-content: center;
+}
+
+.github{
+  margin-left: 15px;
+}
