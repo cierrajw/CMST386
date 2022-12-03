@@ -1,0 +1,76 @@
+$buttonFont: #0b3296;
+$whiteBackground: white;
+
+@font-face {
+    font-family: "SparkyStonesRegular-BW6ld";
+    src: url("SparkyStonesRegular-BW6ld.ttf");
+  }
+
+body {
+    font-family: "SparkyStonesRegular-BW6ld";
+    background-color: #a6ded9;
+    margin: 0;
+    #prepro {
+        color: $buttonFont;
+        font-weight: bold;
+        border-radius: 2rem;
+        height: 2rem;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        background-image: linear-gradient(to right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%);
+        cursor: pointer;
+    }
+}
+
+p {
+    margin: 2rem;
+}
+
+#burger {
+    height: 3rem;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: .5rem;
+    margin-top: 0;
+    background-color: $whiteBackground;
+    border-bottom: solid #1a2226 .2rem;
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        padding: 12px 16px;
+        z-index: 1;
+      }
+      .dropbtn{
+        font-size: xx-large;
+        background-color: $whiteBackground;
+      }
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 100%
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  @media (min-width:801px)  { 
+    p{
+        background-color: #c1d9de;
+    }
+    /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+    }
+  @media (min-width:480px)  { 
+    /* smartphones, Android phones, landscape iPhone */
+    p{
+        background-color: #3293a8;
+    }  }
